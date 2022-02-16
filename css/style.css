@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* header */
 header{
     width: 100%;
     height: 70px;
@@ -16,12 +16,12 @@ h1{
     display: inline-block;
     vertical-align: middle;
 }
-
+/* logo_header */
 .logo{
     display: inline-block;
-    margin: 10px 5px 0 20px;
+    margin: 10px 5px 0 25px;
 }
-
+/* main */
 .main_background{
     width: 100%;
     height: 500px;
@@ -39,6 +39,10 @@ h1{
 
 .single__button{
     background-color: darkcyan;
+    width: 14%;
+    height: 40%;
+    margin-top: 15px;
+    border-radius: 25px;
 }
 
 .top__section__buttons{
