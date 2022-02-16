@@ -6,7 +6,7 @@
 /* header */
 header{
     width: 100%;
-    height: 70px;
+    height: 85px;
     background-color: white;
 }
 
@@ -19,7 +19,8 @@ h1{
 /* logo_header */
 .logo{
     display: inline-block;
-    margin: 10px 5px 0 25px;
+    margin: -1px 5px 0 25px;
+    vertical-align: middle;
 }
 /* main */
 .main_background{
@@ -46,11 +47,13 @@ h1{
 }
 
 .single__button_1{
-    background-color: rgb(63, 199, 199);
+    background-color:#47adf1;
     width: 14%;
     height: 40%;
     margin-top: 15px;
-    border-radius: 10px;
+    margin-left: 50px;
+    border-radius: 5px;
+    font-size: 12px;
 }
 
 .single__button_2{
@@ -58,7 +61,8 @@ h1{
     width: 14%;
     height: 40%;
     margin-top: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
+    font-size: 12px;
 }
 
 h2, p{
@@ -68,4 +72,6 @@ h2, p{
 li{
     list-style: none;
 }
+
+
 
